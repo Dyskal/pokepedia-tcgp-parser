@@ -1,10 +1,10 @@
 {
   "name": "pokepedia-tcgp-parser",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "start": "bun run src/index.ts"
+    "start": "bun src/index.ts"
   },
   "dependencies": {
     "mwn": "^2.0.4"
@@ -12,6 +12,5 @@
   "devDependencies": {
     "typescript": "^5.7.3",
     "@types/bun": "latest"
-  },
-  "private": true
+  }
 }
